@@ -36,7 +36,7 @@ const Layout = ({ children }) => (
           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9818566-7"></script>
           <script>
             window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
+            function gtag(){dataLayer.push(arguments)}
             gtag('js', new Date());
 
             gtag('config', 'UA-9818566-7');
