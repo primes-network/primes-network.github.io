@@ -33,6 +33,14 @@ const Layout = ({ children }) => (
             {` `}
             <a href="https://github.com/primes-network">Github</a>
           </footer>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9818566-7"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-9818566-7');
+          </script>
         </div>
       </>
     )}
